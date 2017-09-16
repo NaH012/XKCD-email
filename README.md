@@ -17,3 +17,10 @@ There can be any number of emails.
 ```wget```<br>
 ```mail``` from ```mailutils```<br>
 ```shuf``` which is in the default ubuntu installation
+## ##
+I used ssmtp on Ubuntu and had it send the message from a gmail account which can be set up like [this][ubuntu-email]
+
+
+
+
+[ubuntu-email]: https://help.ubuntu.com/community/EmailAlerts

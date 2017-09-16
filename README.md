@@ -18,7 +18,7 @@ There can be any number of emails.
 ```mail``` from ```mailutils```<br>
 ```shuf``` which is in the default ubuntu installation
 ## ##
-I used ssmtp on Ubuntu and had it send the message from a gmail account which can be set up like [this][ubuntu-email]
+I used Ssmtp on Ubuntu and had it send the message from a gmail account which can be set up like [this][ubuntu-email]
 
 
 

@@ -1,3 +1,7 @@
+#!/bin/sh
+
+dir=$(readlink -f $0)
+dir=$(dirname $dir)
 sent="false"
 mkdir $dir/tmp
 touch $dir/viewed.pictures
@@ -15,7 +19,7 @@ do
 		echo $num >> $dir/viewed.pictures
 		rm $dir/tmp/index.html*
 		file="$(ls -l $dir/tmp | grep - | sed 's/  */ /g' | cut -d' ' -f9)"
-		echo $alt | mail -A $dir/tmp/$file $*
+		echo $alt | s-nail -s "XKCD Email" -a $dir/tmp/$file $*
 		rm -r $dir/tmp
 		sent="true"
 	else

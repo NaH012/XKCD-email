@@ -10,9 +10,9 @@ There can be any number of emails.
 
 ### Dependencies ###
 ```wget```<br>
-```s-nail```<br>
 ```shuf``` which is in the default ubuntu installation <br>
-```recode``` from ```recode```
+```s-nail```<br>
+```recode```
 ## ##
 I used Ssmtp on Ubuntu and had it send the message from a gmail account which can be set up like [this][ubuntu-email]
 
